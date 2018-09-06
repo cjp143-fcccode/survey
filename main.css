@@ -1,0 +1,35 @@
+.rowline{
+    font-size: 1.2em;
+    margin:20px;
+}
+div {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+input+span {
+    padding-right: 30px;
+}
+
+input:invalid+span:after {
+    position: absolute;
+    content: '✖';
+    padding-left: 5px;
+    color: yellow;
+}
+
+input:valid+span:after {
+    position: absolute;
+    content: '✓';
+    padding-left: 5px;
+    color: green;
+}
+body{
+    background-color: beige;
+}
+.formblock{
+background-color: sandybrown;
+margin:auto;
+width:40%;
+border-radius: 10px;    
+}
